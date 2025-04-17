@@ -1,0 +1,26 @@
+{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "MaxDigital",
+    "description": "Agencia UX/UI experta en diseño web y posicionamiento SEO",
+    "url": "https://maxdigital.cl",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Los Nardos 2494",
+        "addressLocality": "Santiago",
+        "addressRegion": "Región Metropolitana",
+        "postalCode": "",
+        "addressCountry": "CL"
+    },
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+56-9-66464452",
+        "contactType": "customer service",
+        "availableLanguage": ["es"]
+    },
+    "sameAs": [
+        "https://www.instagram.com/maxdigital.mkt",
+        "https://www.linkedin.com/company/max-digital",
+        "https://www.tiktok.com/@maxdigital.mkt"
+    ]
+}

@@ -1,0 +1,108 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+  
+/* Hero Section con degradado de la nueva paleta */
+.hero {
+    background: linear-gradient(to right, #31abe1, #7ed957);
+    color: white;
+    padding: 80px 0;
+}
+  
+/* Títulos de sección en azul MaxDigital */
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #31abe1;
+}
+
+/* Iconos destacados en azul MaxDigital */
+.feature-icon {
+    font-size: 3rem;
+    color: #31abe1;
+    margin-bottom: 15px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #31abe1; /* opcional, refuerza branding en el navbar */
+}
+
+/* Footer con diseño sobrio */
+footer {
+    font-size: 0.9rem;
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    color: #333;
+}
+
+/* Formularios */
+form input, form textarea {
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+/* Botones del formulario con verde MaxDigital */
+form button {
+    border-radius: 0.5rem;
+    padding: 10px 20px;
+    background-color: #7ed957;
+    color: white;
+    border: none;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background-color: #5fc344;
+}
+
+/* Responsivo */
+@media (max-width: 767px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .feature-icon {
+        font-size: 2rem;
+    }
+}
+
+/* Logo responsive */
+.logo {
+    height: auto;
+    width: 140px;
+    max-width: 100%;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 1200px) {
+    .logo {
+        width: 120px;
+    }
+}
+
+@media (max-width: 992px) {
+    .logo {
+        width: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 80px;
+    }
+}
+
+@media (max-width: 576px) {
+    .logo {
+        width: 60px;
+    }
+}

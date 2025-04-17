@@ -1,0 +1,86 @@
+:root {
+  --color-primario: #31abe1;
+  --color-secundario: #7ed957;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+header {
+  background-color: var(--color-primario);
+  color: white;
+  padding: 1rem 0;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--color-secundario);
+}
+
+.hero {
+  background: linear-gradient(135deg, var(--color-primario), var(--color-secundario));
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.btn-custom {
+  background-color: var(--color-secundario);
+  border: none;
+  color: #fff;
+}
+
+.btn-custom:hover {
+  background-color: #64bd45;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.logo {
+  height: auto;
+  width: 140px; /* valor por defecto */
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 1200px) {
+  .logo {
+    width: 120px;
+  }
+}
+
+@media (max-width: 992px) {
+  .logo {
+    width: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo {
+    width: 80px;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo {
+    width: 60px;
+  }
+}
