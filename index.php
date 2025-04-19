@@ -47,20 +47,10 @@
   </nav>
 
   <!-- Hero Section -->
-  <section class="hero">
-    <div class="container text-center">
-      <h1 class="display-4">Transformamos tu presencia digital</h1>
-      <p class="lead">Expertos en diseño UX/UI y posicionamiento SEO para hacer crecer tu marca.</p>
-      <a href="#contacto" class="btn btn-light btn-lg mt-3">Contáctanos</a>
-    </div>
-  </section>
-
-  <!-- Hero Section -->
   <section class="hero text-center">
     <div class="container">
       <h1 class="display-4">Impulsa tu presencia digital con MaxDigital</h1>
-      <p class="lead">Diseño UX/UI profesional + posicionamiento SEO real</p>
-      <a href="#contacto" class="btn btn-lg" style="background-color: #7ed957; color: white;">Contáctanos</a>
+      <a href="#contacto" class="btn btn-light btn-lg mt-3">Contáctanos</a>
     </div>
   </section>
 
